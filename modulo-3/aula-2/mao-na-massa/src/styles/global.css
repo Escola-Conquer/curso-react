@@ -1,0 +1,53 @@
+:root {
+  --background: #e9ecef;
+
+  --blue-500: #246BFD;
+  --blue-300: #5988e7;
+
+  --red-500: #FF3E3E;
+
+  --grey-500: #6c757d;
+
+  --white: #ffffff;
+  --black: #212121;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--blue-500);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.react-modal-overlay {
+  background: rgba(0, 0, 0, 0.5);
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

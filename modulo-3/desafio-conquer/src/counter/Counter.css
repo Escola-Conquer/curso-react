@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.counterWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#display {
+    font-size: 25px
+}

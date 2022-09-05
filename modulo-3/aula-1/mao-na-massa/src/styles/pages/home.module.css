@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addTaskButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: var(--blue-500);
+
+  color: var(--white);
+  font-weight: 700;
+
+  border: none;
+  border-radius: 100px;
+
+  padding: 1rem 2rem;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+}
+.addTaskButton:hover {
+  background: var(--blue-300);
+}
+
+.addTaskButton svg {
+  margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+
+  .addTaskButton {
+    margin-bottom: 1rem;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.tasks {
+  margin: 2rem 0;
+}
+
+.tasks > div:first-child {
+  margin-top: 0;
+}
+.tasks > div {
+  margin-top: 2rem;
+}
