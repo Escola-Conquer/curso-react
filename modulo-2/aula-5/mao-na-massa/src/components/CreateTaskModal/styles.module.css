@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+
+  width:100%;
+  max-width: 500px;
+  height: fit-content;
+
+  background: var(--background);
+
+  border-radius: 20px;
+
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.closeButton {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+
+  border: 0;
+  background: transparent;
+
+  transition: filter 0.1s;
+  z-index: 1600;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.closeButton:hover {
+  filter: brightness(0.2)
+}
+
+form {
+  margin: 2rem 0 1rem;
+}
+
+input {
+  background: var(--white);
+  
+  border: none;
+  border-radius: 10px;
+  
+  margin-top: 0.25rem;
+  padding: 0.5rem 1rem;
+
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+
+  margin-top: 1rem;
+
+  background: var(--blue-500);
+
+  color: var(--white);
+  font-weight: 700;
+
+  border: none;
+  border-radius: 100px;
+
+  padding: 0.75rem 2rem;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+}
+.button:hover {
+  background: var(--blue-300);
+}
