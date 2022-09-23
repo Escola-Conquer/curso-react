@@ -1,5 +1,5 @@
 {
-  "name": "mao-na-massa",
+  "name": "filmz",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,20 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.1",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.0",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
-    "@types/react-icons": "^3.0.0",
-    "@types/react-router-dom": "^5.3.3",
-    "@types/react-toastify": "^4.1.0",
     "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^2.1.0",
-    "styled-components": "^5.3.5",
-    "typescript": "^4.8.3",
+    "typescript": "^4.6.4",
     "vite": "^3.1.0"
   }
 }
