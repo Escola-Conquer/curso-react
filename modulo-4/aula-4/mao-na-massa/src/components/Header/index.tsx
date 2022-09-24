@@ -1,4 +1,4 @@
-import { FaBars, FaHome } from "react-icons/fa"
+import { FaBars } from "react-icons/fa"
 import Logo from "../../assets/logo.png"
 import { Button } from "../Button"
 import * as Styles from "./styles"
@@ -12,6 +12,7 @@ export function Header() {
             alt="Logo de Filmz. Botão de play ao lado do texto 'Filmz'"
           />
 
+          <Link
           <FaHome />
           Home
           <FaBars />
