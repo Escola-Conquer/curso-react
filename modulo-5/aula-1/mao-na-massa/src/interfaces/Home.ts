@@ -2,7 +2,7 @@ export interface IContainerProps {
   imageSrc: string
 }
 
-export interface ITopTenWeeklyMovies {
+export interface ITop10WeeklyMovies {
   adult: boolean
   backdrop_path: string
   id: number
